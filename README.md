@@ -32,3 +32,8 @@ Interval Length: 100 ms
 
 6.Baseline correction: -200 to 0 (this is a linear transformation, where all averages are aligned so that the mean activity of this period equals zero)
 Then, the averaged data are usually exported as mean values during a certain period, e.g. ms 0-100 after the responses 
+
+
+ A figure from a review was made, first over several trials of one person (up right), then also averaging across multiple people (down left). The ERN is usually maximal at FCz, but also clearly apparent on adjacent electrodes, like Cz, Fz, FC1, FC2, etc. Electrodes are named according.
+ 
+ ![]images(mean_eeg.png)
