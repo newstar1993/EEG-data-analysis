@@ -36,4 +36,4 @@ Then, the averaged data are usually exported as mean values during a certain per
 
  A figure from a review was made, first over several trials of one person (up right), then also averaging across multiple people (down left). The ERN is usually maximal at FCz, but also clearly apparent on adjacent electrodes, like Cz, Fz, FC1, FC2, etc. Electrodes are named according.
  
- ![]('file:///D:/github/New%20folder/EEG-data-analysis/mean_eeg.png')
+ ![](images/mean_eeg.png)
