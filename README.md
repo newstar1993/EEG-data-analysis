@@ -1,5 +1,8 @@
 # EEG-data-analysis
 Analysis of EEG Dataset
+
+Reference paper : https://katlabatfsu.weebly.com/uploads/9/0/8/2/90824315/cavanagh_meyer___hajcak_2017.pdf
+
 Preprocessing EEG dataset
 in chronological order
 
@@ -36,4 +39,13 @@ Then, the averaged data are usually exported as mean values during a certain per
 
  A figure from a review was made, first over several trials of one person (up right), then also averaging across multiple people (down left). The ERN is usually maximal at FCz, but also clearly apparent on adjacent electrodes, like Cz, Fz, FC1, FC2, etc. Electrodes are named according.
  
- ![](images/mean_eeg.png)
+![mean_eeg](https://user-images.githubusercontent.com/33709389/52156669-9bd5c880-2657-11e9-8ae1-0f464ba63bee.png)
+
+Goal: employ machine learning methods with this data to predict whether a person is GAD patient or not.
+
+Data preprocessing:  Get the result of FCZ response and extract the mean of correct and incorrect response. use data Augmentation and removal of outliers.
+
+Measurements: Do 10 fold cross validation on patients level for 40 times. Obtain the average test accuracy.
+
+
+Final results on result.xlsx at this repository.
