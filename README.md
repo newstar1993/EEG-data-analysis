@@ -48,4 +48,7 @@ Data preprocessing:  Get the result of FCZ response and extract the mean of corr
 Measurements: Do 10 fold cross validation on patients level for 40 times. Obtain the average test accuracy.
 
 
-Final results on result.xlsx at this repository.
+Final results on results.xlsx at this repository.
+Major codes on main.py
+
+unable to upload the original data which is in mat file. The file in preprocessing is used to extract features from original data.
